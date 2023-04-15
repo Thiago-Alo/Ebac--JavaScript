@@ -8,6 +8,16 @@
 </head>
 <body>
     <div id="main"></div>
+    <table>
+		<thead>
+			<tr>
+				<th>Marca</th>
+				<th>Quilometragem</th>
+			</tr>
+		</thead>
+		<tbody id="tabela-carros">
+		</tbody>
+	</table>
 
     <div id="app">
         {{ message }}
@@ -20,8 +30,9 @@
 
         <span v-if="seen">Now you see me</span>
     </div> 
-
-    <script src="./exams.js" type="module"></script>
+    
+    <script src="./filterCarros.js" type="module"></script>
+    <!-- <script src="./exams.js" type="module"></script> -->
      <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script>
         var app = new Vue({
