@@ -1,3 +1,4 @@
+import { Animais } from "./modulesExport"
 
 class Animal {
 
@@ -29,3 +30,4 @@ export default class Cachorro extends Animal{
     }
 }
 
+// export default Animais;
